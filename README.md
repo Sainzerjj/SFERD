@@ -1,4 +1,4 @@
-# SFERD
+# Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models (SFERD)
 
 ## Official implementation for paper: "Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models"
 ## Abstract

@@ -6,8 +6,8 @@ We propose **S**patial **F**itting-**E**rror **R**eduction **D**istillation mode
 
 ## Pipeline
 ![process](https://github.com/Sainzerjj/SFERD/blob/main/imgs/distillation.png)  
-![process](https://github.com/Sainzerjj/SFERD/blob/main/imgs/DAE.png)
-![process](https://github.com/Sainzerjj/SFERD/blob/main/imgs/DSE.png)  
+![DAG](https://github.com/Sainzerjj/SFERD/blob/main/imgs/DAG.png)
+![DSE](https://github.com/Sainzerjj/SFERD/blob/main/imgs/DSE.png)  
 
 ## Requirements
 A suitable conda environment named SFERD can be created and activated with:

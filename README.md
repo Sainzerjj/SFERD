@@ -21,10 +21,6 @@ We provide the main core code implementation of the SFERD model, which includes 
 
 Specially, the main work of `./unet/teacher_unet.py` is extracting the attention map of the middle or decoder blocks in diffusion model. The main work of `./unet/student_unet.py` is adding semantic encoder module, gradient predictor module and latent diffusion module, and futher incorporating them into training with the trained distillation student model. The main work of `./diffusion/gaussian_diffusion.py` is achieving attention guidance method based on teacher model, reformulating training loss objective with semantic gradient predictor, training diffusion distillation model, training latent diffusion and applying necessary diffusion process(including inference, forward, noise schedule setting.)
 
-## Training
-
-## Sampling
-
 ## Acknowledgements
 This implementation is based on the repo from [openai/guided-diffusion](https://github.com/openai/guided-diffusion) and [openai/consistency_models](https://github.com/openai/consistency_models).
 

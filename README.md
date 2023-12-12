@@ -1,6 +1,6 @@
 # Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models (SFERD)
 
-## Official implementation for paper: "Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models"
+## Official implementation for paper: "Reducing Spatial Fitting Error in Distillation of Denoising Diffusion Models" (AAAI 2024)
 [Paper](https://arxiv.org/pdf/2311.03830.pdf)
 ## Abstract
 We propose **S**patial **F**itting-**E**rror **R**eduction **D**istillation model ($\textbf{SFERD}$). SFERD utilizes attention guidance from the teacher model and a designed semantic gradient predictor to reduce the student's fitting error. Empirically, our proposed model facilitates high-quality sample generation in a few function evaluations (1~4 steps). **Our method can be applied to existing mainstream Diffusion Distillation models ([Consistency Distillation](https://arxiv.org/pdf/2303.01469.pdf), [Progress Distallation](https://arxiv.org/pdf/2202.00512.pdf) for better performance**.
